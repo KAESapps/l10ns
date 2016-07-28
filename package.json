@@ -42,6 +42,7 @@
     "commander": "^2.7.1",
     "connect-modrewrite": "^0.6.0",
     "express": "~3.1.2",
+    "execa": "~0.4.0",
     "findup-sync": "~0.1.1",
     "glob": "~3.2.8",
     "hashids": "~0.1.4",
