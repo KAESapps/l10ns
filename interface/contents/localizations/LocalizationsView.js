@@ -109,12 +109,12 @@ define(function(require) {
     _showLocalization: function(event) {
       var _this = this;
       var id = event.currentTarget.getAttribute('data-id');
-      var key = encodeURI(event.currentTarget.getAttribute('data-key').replace(/\s/g, '-'));
+      // var key = encodeURI(event.currentTarget.getAttribute('data-key').replace(/\s/g, '-'));
 
       this.$region.removeClass('is-revealed').addClass('is-hidden');
       setTimeout(function() {
         _this.$region.hide();
-        app.navigate('/' + app.language + '/l/' + id + '/' + key);
+        app.navigate('/' + app.language + '/l/' + id);
       }, 400);
     },
 
